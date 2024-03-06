@@ -1,6 +1,6 @@
 {
-    "name": "portal",
-    "short_name": "portal",
+    "name": "portal_2",
+    "short_name": "portal_2",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
