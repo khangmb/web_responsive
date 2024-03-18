@@ -30944,11 +30944,12 @@ ahf:function ahf(){var _=this
 _.d=_.c=_.b=_.a=null},
 awv:function awv(){var _=this
 _.d=_.c=_.b=_.a=null},
-Ua:function Ua(a,b,c,d){var _=this
+Ua:function Ua(a,b,c,d,e){var _=this
 _.a=a
 _.b=b
 _.c=c
-_.e=d},
+_.d=d
+_.e=e},
 ha:function ha(a,b){this.a=a
 this.b=b},
 qD:function qD(a,b,c){this.a=a
@@ -105400,7 +105401,7 @@ E4(a){return this.aAy(a)},
 aAy(a){var s=0,r=A.z(t.DR),q,p=this,o
 var $async$E4=A.u(function(b,c){if(b===1)return A.w(c,r)
 while(true)switch(s){case 0:o=a.b
-q=p.hy(new A.agx(p,A.ai(["Name",A.kR(A.brE(new A.eC(o==null?"":o)),0,null),"Group",a.c,"IdNumber","","AccessDoor",a.e,"Content-Type","image/*"],t.N,t.X),a))
+q=p.hy(new A.agx(p,A.ai(["Name",A.kR(A.brE(new A.eC(o==null?"":o)),0,null),"Group",a.c,"IdNumber",a.d,"AccessDoor",a.e,"Content-Type","image/*"],t.N,t.X),a))
 s=1
 break
 case 1:return A.x(q,r)}})
@@ -107551,8 +107552,9 @@ case 5:q.ct(n.xO(m,"Please select file",B.dH))
 s=6
 break
 case 7:n=m.cx
+m=m.d
 s=8
-return A.J(q.x.E4(new A.Ua(p,n,a,b)),$async$E5)
+return A.J(q.x.E4(new A.Ua(p,n,a,m,b)),$async$E5)
 case 8:o=d
 n=o.a
 m=q.c
@@ -107583,7 +107585,7 @@ case 8:q.ct(p.a18(p.b,"Please input Id User",B.dH,o))
 s=9
 break
 case 10:s=11
-return A.J(q.x.E4(new A.Ua(o,b,a,d)),$async$E6)
+return A.J(q.x.E4(new A.Ua(o,b,a,c,d)),$async$E6)
 case 11:n=f
 p=n.a
 o=q.c
